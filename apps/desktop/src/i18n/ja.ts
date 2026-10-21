@@ -19,7 +19,6 @@ import { jaThemePicker } from './ja_theme_picker'
 import { jaUpdateChannel } from './ja_update_channel'
 
 export const jaOverrides = {
-
   catalog: jaCatalog,
   connectors: jaConnectors.connectors,
   externalOpenFailed: {
@@ -1249,7 +1248,8 @@ export const jaOverrides = {
       activeBackend: '使用中',
       activeBackendHint: 'これが現在アクティブなバックエンドです',
       useBackend: 'このバックエンドを使う',
-      nastechIncluded: 'Nastech サブスクリプションに含まれています。有効にするには Nastech Portal にサインインしてください。',
+      nastechIncluded:
+        'Nastech サブスクリプションに含まれています。有効にするには Nastech Portal にサインインしてください。',
       nastechAuthNeededTitle: 'Nastech Portal にサインイン',
       nastechAuthNeededMessage: provider =>
         `${provider} は保存されましたが、Nastech Portal にサインインするまで有効になりません。`,
@@ -2700,7 +2700,8 @@ export const jaOverrides = {
     done: '完了',
     applyingBody:
       'Nastech アップデーターが独自のウィンドウで引き継ぎ、完了後に自動的に Nastech を再度開きます。更新中はご自分で Nastech を開き直さないでください。',
-    applyingBodyBackend: 'リモートバックエンドが更新を適用して再起動します。復帰すると Nastech が自動的に再接続します。',
+    applyingBodyBackend:
+      'リモートバックエンドが更新を適用して再起動します。復帰すると Nastech が自動的に再接続します。',
     applyingClose: 'このウィンドウは更新中に閉じ、その後 Nastech が自動的に再度開きます。',
     errorTitle: '更新が完了しませんでした',
     errorBody: 'ご安心ください。何も失われていません。今すぐ再試行できます。',
@@ -3334,7 +3335,8 @@ export const jaOverrides = {
         },
         invalid_response: {
           title: 'AI サービスが読み取れない応答を返しました',
-          body: provider => `${provider} は Nastech が読み取れない内容を返しました。しばらくしてから再試行してください。`
+          body: provider =>
+            `${provider} は Nastech が読み取れない内容を返しました。しばらくしてから再試行してください。`
         },
         empty_response: {
           title: 'AI サービスが空の応答を返しました',
